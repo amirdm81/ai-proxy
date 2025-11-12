@@ -99,6 +99,10 @@ const proxies: { pathSegment: string; target: string; orHostname?: string }[] =
     {
       pathSegment: "telegram",
       target: "https://api.telegram.org",
+    },
+    {
+      pathSegment: "tavily",
+      target: "https://api.tavily.com"
     }
   ]
 
