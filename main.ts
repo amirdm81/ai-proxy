@@ -96,6 +96,10 @@ const proxies: { pathSegment: string; target: string; orHostname?: string }[] =
       pathSegment: "googleapis-cloudcode-pa",
       target: "https://cloudcode-pa.googleapis.com",
     },
+    {
+      pathSegment: "telegram",
+      target: "https://api.telegram.org",
+    }
   ]
 
 app.post(
